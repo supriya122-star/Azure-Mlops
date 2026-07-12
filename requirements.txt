@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+mlflow
+joblib
+matplotlib
+seaborn
+pytest
+azure-ai-ml
+azure-identity

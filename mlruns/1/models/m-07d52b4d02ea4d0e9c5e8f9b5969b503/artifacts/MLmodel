@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/SUHAS P/Downloads/practice_azure_mlops/Azure-Mlops/mlruns/1/models/m-07d52b4d02ea4d0e9c5e8f9b5969b503/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.8
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-07d52b4d02ea4d0e9c5e8f9b5969b503
+model_size_bytes: 22498889
+model_uuid: m-07d52b4d02ea4d0e9c5e8f9b5969b503
+prompts: null
+run_id: 0f1dd93acba0433da11cfcad9c813d86
+utc_time_created: '2026-07-12 15:33:57.391212'
